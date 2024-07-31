@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header, footer {
+  padding: 1em;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 1em;
+}
+
+.preview, .show, .season, .episode {
+  margin: 1em 0;
+}
+
+@media (max-width: 600px) {
+  header, footer {
+    font-size: 0.9em;
+  }
+
+  nav a {
+    display: block;
+    margin: 0.5em 0;
+  }
+
+  .preview, .show, .season, .episode {
+    margin: 0.5em 0;
+  }
+}
